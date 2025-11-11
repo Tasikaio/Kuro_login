@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  kuro-login:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - DEBUG=False
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
+    
+  # 如果需要数据库或其他服务，可以在这里添加
+  # redis:
+  #   image: redis:alpine
+  #   ports:
+  #     - "6379:6379"

@@ -1,0 +1,28 @@
+# 忽略不需要的文件
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+venv
+.venv
+.env
+.idea
+.vscode
+*.log
+logs
+.DS_Store
+Thumbs.db
+
+# 测试文件
+tests/
+
+# 文档文件
+docs/
+
+# 临时文件
+temp/
+tmp/

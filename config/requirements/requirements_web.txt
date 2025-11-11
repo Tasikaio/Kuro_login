@@ -1,0 +1,15 @@
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+Werkzeug>=2.3.0
+requests>=2.32.0
+loguru>=0.7.0
+pycryptodome>=3.20.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+ddddocr>=1.5.0
+torch>=2.0.0
+torchvision>=0.15.0
+open_clip_torch>=2.20.0
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+pydash>=7.0.0
